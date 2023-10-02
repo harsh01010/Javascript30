@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-image: url("./assets/images/background.jpg");
+    min-height: 100vh;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4vw;
+    padding-bottom: 50px;
+    position: relative;
+}
+.drum{
+    border: 2px solid #00f;
+    min-width: 80px;
+    min-height: 70px;
+    text-align: center;
+    background-color: #00f;
+    border-radius: 12px;
+    padding-top: 10px;
+}
+.drum:hover{
+    background-color: #414141;
+    box-shadow: 0 0 10px #00f;
+}
