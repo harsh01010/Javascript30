@@ -18,7 +18,7 @@ function findMatches(target,cities){
 //  .then(Response=>Response.json())
 //  .then(data=>{cities.push(...data); console.log(cities.length)});
 
-/******/
+/*******/
 
 const inp = document.querySelector(".city-inp");
 const op = document.querySelector(".search-result");
